@@ -115,8 +115,11 @@ color: #F13C6E;
 }
 
 .super-chair {
-background-color: #F13C6E;
-margin: 0 -15px;
+    background-color: #F13C6E;
+}
+
+.fix-back{
+    margin: 0 -15px;
 }
 
 .super-chair-flex {
