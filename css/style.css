@@ -1,399 +1,397 @@
 ﻿* {
-margin: 0;
-box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .clearfix::after {
-content: '';
-display: table;
-clear: both;
+    content: '';
+    display: table;
+    clear: both;
 }
 
 .img-responsive {
-max-width: 100%;
-height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .body {
-font-family: 'Roboto', 'Arial', sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container {
-max-width: 1200px;
-min-width: 991px;
-margin: 0 auto;
-padding: 0 15px;
+    max-width: 120px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .head-top {
-background-color: #E5E5E5;
-padding-top: 24px;
-padding-bottom: 15px;
+    background-color: #E5E5E5;
+    padding-top: 24px;
+    padding-bottom: 15px;
 }
 
 .head-top-menu {
-float: right;
+    float: right;
 }
 
 .head-top-menu a {
-padding-left: 23px;
-text-decoration: none;
-font-size: 14px;
-line-height: 16px;
-color: #333333;
+    padding-left: 23px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
 
 }
 
 .head-top-menu a:hover {
-color: #F13C6E;
+    color: #F13C6E;
 }
 
 .head-bottom {
-background-color: #fff;
-padding-top: 19px;
-padding-bottom: 20px;
-border-bottom: 1px solid #EFEFEF;
-;
+    background-color: #fff;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EFEFEF;
+    ;
 }
 
 .logo {
-float: left;
+    float: left;
 }
 
 .call {
-padding-top: 20px;
-float: right;
+    padding-top: 20px;
+    float: right;
 
 }
 
 .call .tel {
-text-transform: capitalize;
-text-decoration: none;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
-display: inline-block;
-vertical-align: top;
-padding-top: 11px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 11px;
 }
 
 .call .bottom {
-font-size: 14px;
-line-height: 16px;
-color: #000000;
-border: 2px solid #F13C6E;
-border-radius: 40px;
-padding-left: 12px;
-padding-right: 12px;
-padding-top: 12px;
-padding-bottom: 9px;
-margin-left: 48px;
-text-decoration: none;
-display: inline-block;
-vertical-align: top;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 9px;
+    margin-left: 48px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .menu {
-padding-top: 26px;
-padding-bottom: 30px;
-text-align: center;
+    padding-top: 26px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
 .menu a {
-text-decoration: none;
-font-size: 16px;
-line-height: 19px;
-color: #000000;
-padding-left: 16px;
-padding-right: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .menu a:hover {
-color: #F13C6E;
+    color: #F13C6E;
 }
 
 .super-chair {
     background-color: #F13C6E;
+   
 }
 
-.fix-back{
+.fix-flex {
+    font-size: 0;
     margin: 0 -15px;
 }
 
 .super-chair-flex {
-width: 50%;
-float: left;
-padding-left: 15px;
+    width: 50%;
+    float: left;
+    padding: 0 15px;
 }
 
 .title-chair {
-float: left;
+    float: left;
 }
 
 .img-chair {
-float: left;
-padding-top: 19px;
-padding-bottom: 1px;
-padding-left: 10px;
+    float: left;
+    padding-top: 19px;
+    padding-bottom: 1px;
+    padding-left: 10px;
 
 }
 
 .text {
-width: 308px;
-padding-top: 192px;
-padding-bottom: 193px;
+    width: 308px;
+    padding-top: 192px;
+    padding-bottom: 193px;
 }
 
 .text h2 {
-font-weight: 700;
-font-size: 48px;
-line-height: 56px;
-color: #FFFFFF;
-text-decoration: none;
-padding-bottom: 38px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-bottom: 38px;
 }
 
 .text p {
-padding-bottom: 45px;
-font-size: 14px;
-line-height: 20px;
-color: #FFFFFF;
+    padding-bottom: 45px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .title-chair .bottom {
-font-size: 14px;
-line-height: 16px;
-text-align: center;
-letter-spacing: 0.05em;
-color: #FFFFFF;
-text-decoration: none;
-background: transparent;
-border: 2px solid #FFFFFF;
-border-radius: 40px;
-padding: 12px 42px 10px 45px;
-
-display: inline-block;
-vertical-align: top;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 12px 42px 10px 45px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .special-offer {
-background-color: #EFEFEF;
-padding-bottom: 54px;
-padding-top: 76px;
+    background-color: #EFEFEF;
+    padding-bottom: 54px;
+    padding-top: 76px;
 }
 
 .special-offer h2 {
-padding-bottom: 38px;
-font-weight: 700;
-font-size: 24px;
-line-height: 28px;
-color: #000000;
+    padding-bottom: 38px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
 }
 
 .cards-chair {
-font-size: 0;
-margin: 0 -15px;
+    font-size: 0;
+    margin: 0 -15px;
 }
 
 .cards-chair-item-flex {
-width: 25%;
-padding: 0 15px 30px;
-display: inline-block;
-vertical-align: top;
+    width: 25%;
+    padding: 0 15px 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .cards-chair-item {
-background-color: #FFFFFF;
-font-size: 14px;
-text-align: center;
-padding: 27px 20px 25px 20px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding: 27px 20px 25px 20px;
 
 }
 
 .cards-chair-item:hover {
-box-shadow: 10px 5px 5px rgb(65, 63, 63);
+    box-shadow: 10px 5px 5px rgb(65, 63, 63);
 }
 
 .img-cards-chair {
-padding-bottom: 14px;
+    padding-bottom: 14px;
 }
 
 .cards-chair-item a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .cards-chair-item h3 {
-font-size: 14px;
-line-height: 20px;
-color: #333333;
-padding-top: 16px;
-padding-bottom: 16px;
-font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-weight: 400;
 }
 
 .cards-chair-item p {
-font-weight: 500;
-font-size: 21px;
-line-height: 25px;
-letter-spacing: 0.05em;
-color: #000000;
-padding-bottom: 14px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-bottom: 14px;
 }
 
 .buy {
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.05em;
-color: #FFFFFF;
-border-radius: 30px;
-background: #F13C6E;
-padding: 9px 40px;
-display: inline-block;
-vertical-align: top;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    border-radius: 30px;
+    background: #F13C6E;
+    padding: 9px 40px;
+    display: inline-block;
+    vertical-align: top;
 
 }
 
 .buy:hover {
-background: #797173;
+    background: #797173;
 }
 
 .bottom:hover {
-background: #797173;
+    background: #797173;
 }
 
 .footer {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .top-foot {
-padding-top: 77px;
-padding-bottom: 60px;
-border-bottom: 1px solid #EFEFEF;
-font-size: 0;
-margin: 0 -15px;
+    padding-top: 77px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #EFEFEF;
+  
 
 }
 
 .top-foot h3 {
-font-weight: 500;
-font-size: 16px;
-line-height: 140.62%;
-color: #000000;
-padding-bottom: 47px;
-border-bottom: 1px solid #EFEFEF;
-margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    padding-bottom: 47px;
+    border-bottom: 1px solid #EFEFEF;
+    margin-bottom: 25px;
 }
 
 .categories {
-width: 25%;
-display: inline-block;
-padding-right: 10px;
-padding-left: 15px;
-padding-top: 2px;
-vertical-align: top;
+    width: 25%;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 15px;
+    padding-top: 2px;
+    vertical-align: top;
 
 }
 
 .categories ul {
-list-style: none;
-padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 .categories a {
-text-decoration: none;
-font-size: 12px;
-line-height: 28px;
-color: #828282;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
 }
 
 .middle-foot {
-padding-top: 25px;
-padding-bottom: 38px;
+    padding-top: 25px;
+    padding-bottom: 38px;
 }
 
 .middle-foot a {
-text-decoration: none;
+    text-decoration: none;
 }
 
 .social-network {
-float: left;
+    float: left;
 
 }
 
 .social-network a {
-padding-right: 16px;
+    padding-right: 16px;
 }
 
 .you-tube:hover path {
-fill: black;
+    fill: black;
 }
 
 .facebook:hover path {
-fill: black;
+    fill: black;
 }
 
 .insta:hover path {
-fill: black;
+    fill: black;
 }
 
 .back-call {
-float: right;
-padding-top: 14px;
+    float: right;
+    padding-top: 14px;
 }
 
 .back-call a {
-margin-left: 48px;
-text-decoration: none;
-color: #000000;
+    margin-left: 48px;
+    text-decoration: none;
+    color: #000000;
 }
 
 .back-call .tel {
-padding-top: 10px;
-font-size: 16px;
-line-height: 19px;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 19px;
 }
 
 .back-call .bottom {
-background: #FFFFFF;
-border: 2px solid #F13C6E;
-border-radius: 40px;
-padding: 10px 12px 8px 12px;
-font-size: 14px;
-line-height: 16px;
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    padding: 10px 12px 8px 12px;
+    font-size: 14px;
+    line-height: 16px;
 
 }
 
 .back-call .bottom:hover {
-background: #aca6a7;
-color: black;
+    background: #aca6a7;
+    color: black;
 }
 
 .bottom-foot {
-background-color: #EFEFEF;
-padding-top: 22px;
-padding-bottom: 25px;
-font-size: 12px;
-line-height: 14px;
-color: #828282;
+    background-color: #EFEFEF;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
 }
 
 .bottom-foot a {
-text-decoration: none;
-color: #828282;
+    text-decoration: none;
+    color: #828282;
 }
 
 .bottom-foot .text-left {
-float: left;
+    float: left;
 }
 
 .bottom-foot .text-right {
-float: right;
+    float: right;
 }
 
 .footer a:hover {
-color: #F13C6E;
+    color: #F13C6E;
 }
-
-
